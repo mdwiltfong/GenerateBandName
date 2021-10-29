@@ -1,3 +1,6 @@
+#Check it out on GitHub Pages
+https://julesofalltrades.github.io/GenerateBandName/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
