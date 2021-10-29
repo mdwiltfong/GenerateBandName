@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/GenerateBandName/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/GenerateBandName/static/js/main.afdfb209.chunk.js",
+    "main.js.map": "/GenerateBandName/static/js/main.afdfb209.chunk.js.map",
+    "runtime-main.js": "/GenerateBandName/static/js/runtime-main.69654df0.js",
+    "runtime-main.js.map": "/GenerateBandName/static/js/runtime-main.69654df0.js.map",
+    "static/js/2.fe55cacf.chunk.js": "/GenerateBandName/static/js/2.fe55cacf.chunk.js",
+    "static/js/2.fe55cacf.chunk.js.map": "/GenerateBandName/static/js/2.fe55cacf.chunk.js.map",
+    "static/js/3.e66b7a74.chunk.js": "/GenerateBandName/static/js/3.e66b7a74.chunk.js",
+    "static/js/3.e66b7a74.chunk.js.map": "/GenerateBandName/static/js/3.e66b7a74.chunk.js.map",
+    "index.html": "/GenerateBandName/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/GenerateBandName/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.fe55cacf.chunk.js.LICENSE.txt": "/GenerateBandName/static/js/2.fe55cacf.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/GenerateBandName/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69654df0.js",
+    "static/js/2.fe55cacf.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.afdfb209.chunk.js"
+  ]
+}
