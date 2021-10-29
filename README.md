@@ -1,4 +1,4 @@
-#Check it out on GitHub Pages
+# Check it out on GitHub Pages
 https://julesofalltrades.github.io/GenerateBandName/
 
 # Getting Started with Create React App
