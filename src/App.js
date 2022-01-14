@@ -1,7 +1,9 @@
 
 import { useState } from 'react';
 import './App.css';
-const adjectives = ["Lilac", "Scary", "Enormous", "Blind", "Hopeful", "Warped", "Vintage", "Great", "Terrible", "Dental", "Filthy", "Brainy", "Cosmic", 
+import axios from 'axios'
+
+/* const adjectives = ["Lilac", "Scary", "Enormous", "Blind", "Hopeful", "Warped", "Vintage", "Great", "Terrible", "Dental", "Filthy", "Brainy", "Cosmic", 
                     "Discretionary", "Slushy", "Opaque", "Wet", "Conspiratorial", "Aluminum", "Brave", "Heartbroken", "Miserable", "Holy", "Plucky", "Sympathetic", "Brass"] 
 const nouns = ["Octopi", "Happiness", "Shrubbery", "Bracelets", "Code", "Soap", "Cans", "Messages", "Lighter", "Bass", "Puppies", "Courts", "Pages", "Gasps", "Pendulum",
                 "Film", "Bigfoot", "Sons", "Stopwatch", "Cartographer", "Plothole", "Error", "Bass", "Bottle", "Engine", "Landmine", "Sumbarine", "Drugs"]
@@ -18,14 +20,18 @@ function randomNoun() {
 }
     return `Hey, we should call the band The ${randomAjective() +  ' ' + randomNoun()}.`
 }
-
+ */
 
 const App = () => {
   const [message, setMessage] = useState()
   const handleClick = (e) => {
     e.preventDefault()
-    setMessage(GenerateBandName())
+    axios.get('http://localhost:8000/random')
+    .then((resp)=>setMessage(resp.data.bandName));
+    //setMessage(GenerateBandName())
   } 
+
+  
 console.log(message, 'message')
   
   return (
